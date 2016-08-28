@@ -16,13 +16,20 @@ body {
 .heart_color {
   fill: #39add1;
 }
+.heart_color:hover{
+  fill: #111;
+}
 
 .location {
   height: 14px;
 }
 
-.location_color {
+.location_color{
   fill: #39add1;
+}
+
+.location_color:hover{
+  fill: #111;
 }
 
 .contact {
@@ -31,6 +38,10 @@ body {
 
 .contact_color {
   fill: #39add1;
+}
+
+.contact_color:hover{
+  fill: #111;
 }
 
 
