@@ -81,3 +81,17 @@ footer {
   height: 140px;
   width: 120px;
 }
+.logo_text1{
+    display: none;
+  }
+
+@media (max-width: 420px) {
+  .logo_text1{
+    display: initial;
+    color: #BA8058;
+  }
+
+  .text_logo {
+    display: none;
+  }
+}
