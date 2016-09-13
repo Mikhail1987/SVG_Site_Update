@@ -89,6 +89,7 @@ header {
 
 main {
   padding-top: 50px;
+
 }
   main h2 {
   font-size: 28px;
@@ -128,7 +129,7 @@ footer {
 
 
 
-@media (max-width: 420px) {
+@media (max-width: 419px) {
   .logo_text1{
     display: initial;
     color: #BA8058;
@@ -136,5 +137,10 @@ footer {
 
   .text_logo {
     display: none;
+  }
+  .wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
   }
 }
